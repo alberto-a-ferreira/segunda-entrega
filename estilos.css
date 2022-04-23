@@ -8,63 +8,23 @@
 
 body{
     font-family: inria-sans;
-}
-.gridArea{
-    display: grid;
-    grid-template-areas: 
-    "encabezado"
-    "menu"
-    "textos"
-    "fotos"
-    "pie";
-    grid-template-columns: 100%;
-    grid-template-rows: 15% 10% 35% 35% 5%;
-}
-.menu{
-    grid-area: menu;
-    display: flex;
     
 }
-.fotos{
-    grid-area: fotos;
-}
-.textos{
-    grid-area: textos;     
-}
-.encabezado{
-    grid-area: encabezado;
+
+.encabezado{    
     color: white;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    
+    display: flex;  
+    align-items: center;       
 }
-.pie{
-    grid-area: pie;
-}
+
 .fondo{
     background-image: linear-gradient(to left, #05372a, #004550, #004f97, #0051dc, #121deb);
 }
 
-       
+      
 
-        /*pagina de productos*/
+        /*paginas*/
 
-.gridPagina{
-    display: grid;
-    grid-template-areas: 
-    "encabezado"
-    "menu"
-    "item"
-    "pie";
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 5% 70% 5%;
-
-}
-.item{
-    grid-area: item;
-    
-}
 @keyframes texto{
     from{ transform: translateY(-100px)
 }
@@ -75,3 +35,9 @@ to{transform: translateY(0)}
     animation-duration: 1s;
     
 }
+
+.icono{
+    font-size: 30px;
+    color: white;
+}
+       
